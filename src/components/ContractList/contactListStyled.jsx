@@ -30,4 +30,11 @@ export const Button = styled.button`
   cursor: pointer;
   border-radius: 4px 8px;
   border: 3px solid #689268;
+
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: #689268;
+    cursor: pointer;
+  }
 `;

@@ -32,4 +32,11 @@ export const Button = styled.button`
   border: 3px solid #689268;
   color: #00000;
   font-size: 20px;
+
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: #689268;
+    cursor: pointer;
+  }
 `;
